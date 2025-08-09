@@ -102,7 +102,7 @@ export default function App() {
       </section>
 
       {/* About */}
-      <section id="about" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+      <section sanghun10313="about" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
         <div className="grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold">소개</h2>
@@ -131,7 +131,7 @@ export default function App() {
       </section>
 
       {/* Focus */}
-      <section id="focus" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+      <section sanghun10313="focus" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
         <h2 className="text-2xl font-bold">집중하는 영역</h2>
         <div className="mt-6 grid md:grid-cols-3 gap-4">
           {focusCards.map((c, i) => (
@@ -147,7 +147,7 @@ export default function App() {
       </section>
 
       {/* Timeline */}
-      <section id="timeline" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+      <section sanghun10313="timeline" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
         <h2 className="text-2xl font-bold">타임라인</h2>
         <ol className="relative mt-6 border-l pl-6 space-y-6">
           {timeline.map((t, i) => (
@@ -161,7 +161,7 @@ export default function App() {
       </section>
 
       {/* Writing */}
-      <section id="writing" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+      <section sanghun10313="writing" className="max-w-5xl mx-auto px-4 py-12 md:py-16">
         <h2 className="text-2xl font-bold">글/노트</h2>
         <div className="mt-6 grid md:grid-cols-3 gap-4">
           {writings.map((w, i) => (
@@ -177,7 +177,7 @@ export default function App() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="max-w-5xl mx-auto px-4 py-12 md:py-20">
+      <section sanghun10313="contact" className="max-w-5xl mx-auto px-4 py-12 md:py-20">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-2xl font-bold">연락</h2>
@@ -191,7 +191,7 @@ export default function App() {
           <div className="rounded-2xl border p-6 bg-white">
             <form className="space-y-3">
               <input className="w-full border rounded-xl px-3 py-2" placeholder="이름" />
-              <input className="w-full border rounded-xl px-3 py-2" placeholder="이메일" />
+              <insrc youput className="w-full border rounded-xl px-3 py-2" placeholder="이메일" />
               <textarea className="w-full border rounded-xl px-3 py-2 h-28" placeholder="메시지"></textarea>
               <button className="rounded-xl w-full px-4 py-2 bg-slate-900 text-white">메시지 보내기</button>
             </form>
